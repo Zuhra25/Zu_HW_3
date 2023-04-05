@@ -2,11 +2,10 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
     }
     public static void task1 () {
         System.out.println("Задача 1:");
-        //, , , , ,
-        //«Значение переменной … с типом … равно …».
         byte a = 127;
         short b = 30000;
         int c = 2000000;
@@ -28,9 +27,17 @@ public class Main {
         short e = -159;
         short f = 27897;
         byte g = 67;
-
-
-
-
     }
+    public static void task3 () {
+        System.out.println("Задача 3:");
+        byte LudmilaPavlovna = 23;
+        byte AnnaSergeevna = 27;
+        byte EkaterinaAndreevna = 30;
+        short paper = 480;
+        System.out.println("На каждого ученика рассчитано " + paper / (LudmilaPavlovna + AnnaSergeevna + EkaterinaAndreevna) + " листов бумаги");
+    }
+
+
+
+
 }
