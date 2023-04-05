@@ -13,14 +13,24 @@ public class Main {
         long d = 9000000000000000000L;
         float n = - 1.1f;
         double m = -99.99;
-        System.out.println("Значение переменной а с типом byte равно "+ a);
-        System.out.println("Значение переменной а с типом short равно "+ b);
-        System.out.println("Значение переменной а с типом int равно "+ c);
-        System.out.println("Значение переменной а с типом long равно "+ d);
-        System.out.println("Значение переменной а с типом float равно "+ n);
-        System.out.println("Значение переменной а с типом double равно "+ m);
+        System.out.println("Значение переменной _а_ с типом byte равно "+ a);
+        System.out.println("Значение переменной _b_ с типом short равно "+ b);
+        System.out.println("Значение переменной _c_ с типом int равно "+ c);
+        System.out.println("Значение переменной _d_ с типом long равно "+ d);
+        System.out.println("Значение переменной _n_ с типом float равно "+ n);
+        System.out.println("Значение переменной _m_ с типом double равно "+ m);
     }
     public static void task2 () {
-        System.out.println("Задача 2");
+        float a = 27.12f;
+        long b = 987678965549L;
+        float c = 2.786f;
+        short d = 569;
+        short e = -159;
+        short f = 27897;
+        byte g = 67;
+
+
+
+
     }
 }
