@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
     public static void task1 () {
         System.out.println("Задача 1:");
@@ -86,5 +87,23 @@ public class Main {
         System.out.println("Если терять по 250 гр в день, спортсмен похудеет через : " + ifMinus250gr + " дней");
         System.out.println("Если терять по 500 гр в день, спортсмен похудеет через : " + ifMinus500gr + " дней");
         System.out.println("В среднем спортсмен похудеет через : " + daysInMiddle + " дней");
+    }
+    public static void task8 () {
+        System.out.println("Задача 8:");
+
+        //Каждому нужно увеличить зарплату на 10% от текущей месячной.
+
+        // Посчитайте, сколько будет получать каждый из сотрудников,
+        // а также разницу между годовым доходом до и после повышения.
+        int Masha = 67760;
+        int Denis = 83690;
+        int Kristina = 76230;
+        int Masha10 = Masha + Masha*10/100;
+        int Denis10 = Denis + Denis*10/100;
+        int Kristina10 = Kristina + Kristina*10/100;
+
+        System.out.println("После надбавки Маша будет получать : " + Masha10 + " рублей (ЗП повысилась на " + (Masha10-Masha) + " руб)");
+        System.out.println("После надбавки Денис будет получать : " + Denis10 + " рублей (ЗП повысилась на " + (Denis10-Denis) + " руб)");
+        System.out.println("После надбавки Крестина будет получать : " + Kristina10 + " рублей (ЗП повысилась на " + (Kristina10-Kristina) + " руб)");
     }
 }
