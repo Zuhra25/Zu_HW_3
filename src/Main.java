@@ -1,17 +1,26 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        task1();
+        task2();
+    }
+    public static void task1 () {
+        System.out.println("Задача 1:");
+        //, , , , ,
+        //«Значение переменной … с типом … равно …».
+        byte a = 127;
+        short b = 30000;
+        int c = 2000000;
+        long d = 9000000000000000000L;
+        float n = - 1.1f;
+        double m = -99.99;
+        System.out.println("Значение переменной а с типом byte равно "+ a);
+        System.out.println("Значение переменной а с типом short равно "+ b);
+        System.out.println("Значение переменной а с типом int равно "+ c);
+        System.out.println("Значение переменной а с типом long равно "+ d);
+        System.out.println("Значение переменной а с типом float равно "+ n);
+        System.out.println("Значение переменной а с типом double равно "+ m);
+    }
+    public static void task2 () {
+        System.out.println("Задача 2");
     }
 }
