@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
     public static void task1 () {
         System.out.println("Задача 1:");
@@ -47,11 +48,11 @@ public class Main {
         int in20minute = bottlesInMinute * 20;
         int inDay = bottlesInMinute * 24 * 60;
         int in3days = inDay * 3;
-        int inMounth = inDay * 30;
+        int inMonth = inDay * 30;
         System.out.println("За 20 минут машина произвела " + in20minute + " штук бутылок");
         System.out.println("За сутки машина произвела " + inDay + " штук бутылок");
         System.out.println("За 3 дня машина произвела " + in3days + " штук бутылок");
-        System.out.println("За 1 месяц машина произвела " + inMounth + " штук бутылок");
+        System.out.println("За 1 месяц машина произвела " + inMonth + " штук бутылок");
     }
     public static void task5 () {
         System.out.println("Задача 5:");
@@ -74,5 +75,16 @@ public class Main {
         System.out.println("Вес спортзавтрака в граммах: " + breakfastInGr);
         System.out.println("Вес спортзавтрака в килограммах: " + breakfastInKg);
     }
-
+    public static void task7 () {
+        System.out.println("Задача 7:");
+        byte overKg = 7;
+        short minGr = 250;
+        short maxGr = 500;
+        int ifMinus250gr = overKg*1000 / minGr;
+        int ifMinus500gr = overKg*1000 / maxGr;
+        int daysInMiddle = ifMinus250gr + ((ifMinus500gr-ifMinus250gr) / 2);
+        System.out.println("Если терять по 250 гр в день, спортсмен похудеет через : " + ifMinus250gr + " дней");
+        System.out.println("Если терять по 500 гр в день, спортсмен похудеет через : " + ifMinus500gr + " дней");
+        System.out.println("В среднем спортсмен похудеет через : " + daysInMiddle + " дней");
+    }
 }
