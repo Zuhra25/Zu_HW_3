@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
     public static void task1 () {
         System.out.println("Задача 1:");
@@ -47,17 +48,13 @@ public class Main {
         int inDay = bottlesInMinute * 24 * 60;
         int in3days = inDay * 3;
         int inMounth = inDay * 30;
-        System.out.println("За 20 минут машина произвела " + in20minute);
-        System.out.println("За сутки машина произвела " + inDay);
-        System.out.println("За 3 дня машина произвела " + in3days);
-        System.out.println("За 1 месяц машина произвела " + inMounth);
+        System.out.println("За 20 минут машина произвела " + in20minute + " штук бутылок");
+        System.out.println("За сутки машина произвела " + inDay + " штук бутылок");
+        System.out.println("За 3 дня машина произвела " + in3days + " штук бутылок");
+        System.out.println("За 1 месяц машина произвела " + inMounth + " штук бутылок");
     }
     public static void task5 () {
         System.out.println("Задача 5:");
-        // 120 банок краски
-        //На один класс уходит 2 банки белой и 4 банки коричневой краски.
-        //Сколько банок каждой краски было куплено?
-        //«В школе, где … классов, нужно … банок белой краски и … банок коричневой краски».
         byte totalPaint = 120;
         byte whitePaint = 2;
         byte greyPaint = 4;
@@ -65,9 +62,17 @@ public class Main {
         int totalWhitePaint = totalClass * whitePaint;
         int totalGreyPaint = totalClass * greyPaint;
         System.out.println("В школе, где " + totalClass + " класов, нужно " + totalWhitePaint + " банок белой краски и " + totalGreyPaint + " банок коричневой краски");
-
-
     }
-
+    public static void task6 () {
+        System.out.println("Задача 6:");
+        byte banana = 80;
+        byte milk = 105;
+        byte iceCream = 100;
+        byte egg = 70;
+        int breakfastInGr = 5 * banana + 2 * milk + 2 * iceCream + 4 * egg;
+        float breakfastInKg = breakfastInGr * 1f / 1000;
+        System.out.println("Вес спортзавтрака в граммах: " + breakfastInGr);
+        System.out.println("Вес спортзавтрака в килограммах: " + breakfastInKg);
+    }
 
 }
