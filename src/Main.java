@@ -35,11 +35,11 @@ public class Main {
     }
     public static void task3 () {
         System.out.println("Задача 3:");
-        byte LudmilaPavlovna = 23;
-        byte AnnaSergeevna = 27;
-        byte EkaterinaAndreevna = 30;
+        byte ludmilaPavlovna = 23;
+        byte annaSergeevna = 27;
+        byte ekaterinaAndreevna = 30;
         short paper = 480;
-        System.out.println("На каждого ученика рассчитано " + paper / (LudmilaPavlovna + AnnaSergeevna + EkaterinaAndreevna) + " листов бумаги");
+        System.out.println("На каждого ученика рассчитано " + paper / (ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna) + " листов бумаги");
     }
     public static void task4 () {
         System.out.println("Задача 4:");
@@ -96,8 +96,8 @@ public class Main {
         int Masha10 = Masha + Masha*10/100;
         int Denis10 = Denis + Denis*10/100;
         int Kristina10 = Kristina + Kristina*10/100;
-        System.out.println("После надбавки Маша будет получать : " + Masha10 + " рублей (ЗП повысилась на " + (Masha10-Masha) + " руб)");
-        System.out.println("После надбавки Денис будет получать : " + Denis10 + " рублей (ЗП повысилась на " + (Denis10-Denis) + " руб)");
-        System.out.println("После надбавки Крестина будет получать : " + Kristina10 + " рублей (ЗП повысилась на " + (Kristina10-Kristina) + " руб)");
+        System.out.println("После надбавки Маша будет получать : " + Masha10 + " рублей (ЗП повысилась на " + (Masha10-Masha)*12 + " руб в год)");
+        System.out.println("После надбавки Денис будет получать : " + Denis10 + " рублей (ЗП повысилась на " + (Denis10-Denis)*12 + " руб в год)");
+        System.out.println("После надбавки Крестина будет получать : " + Kristina10 + " рублей (ЗП повысилась на " + (Kristina10-Kristina)*12 + " руб в год)");
     }
 }
